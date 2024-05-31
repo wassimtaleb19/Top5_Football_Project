@@ -1,0 +1,60 @@
+function prem() {
+  let a = document.querySelector(".a");
+  let b = document.querySelector(".b");
+  let c = document.querySelector(".c");
+  let d = document.querySelector(".d");
+  let e = document.querySelector(".e");
+  a.classList.add(".appear");
+  b.classList.add(".clear");
+  c.classList.add(".clear");
+  d.classList.add(".clear");
+  e.classList.add(".clear");
+}
+function laliga() {
+  let a = document.querySelector(".a");
+  let b = document.querySelector(".b");
+  let c = document.querySelector(".c");
+  let d = document.querySelector(".d");
+  let e = document.querySelector(".e");
+  a.classList.add(".clear");
+  b.classList.add(".appear");
+  c.classList.add(".clear");
+  d.classList.add(".clear");
+  e.classList.add(".clear");
+}
+function serieA() {
+  let a = document.querySelector(".a");
+  let b = document.querySelector(".b");
+  let c = document.querySelector(".c");
+  let d = document.querySelector(".d");
+  let e = document.querySelector(".e");
+  a.classList.add(".clear");
+  b.classList.add(".clear");
+  c.classList.add(".appear");
+  d.classList.add(".clear");
+  e.classList.add(".clear");
+}
+function bundes() {
+  let a = document.querySelector(".a");
+  let b = document.querySelector(".b");
+  let c = document.querySelector(".c");
+  let d = document.querySelector(".d");
+  let e = document.querySelector(".e");
+  a.classList.add(".clear");
+  b.classList.add(".clear");
+  c.classList.add(".clear");
+  d.classList.add(".appear");
+  e.classList.add(".clear");
+}
+function league1() {
+  let a = document.querySelector(".a");
+  let b = document.querySelector(".b");
+  let c = document.querySelector(".c");
+  let d = document.querySelector(".d");
+  let e = document.querySelector(".e");
+  a.classList.add(".clear");
+  b.classList.add(".clear");
+  c.classList.add(".clear");
+  d.classList.add(".clear");
+  e.classList.add(".appear");
+}

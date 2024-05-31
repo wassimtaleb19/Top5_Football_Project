@@ -1,0 +1,50 @@
+.horizontalNavBar {
+  opacity: 0.9;
+  scale: 0.9;
+  padding: 50px 40px;
+  margin: 40px;
+  margin-left: 60px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgba(0, 50, 1, 0.1)),
+    url("images/mbappe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: auto;
+  gap: 40px;
+  transition: 0.5s;
+}
+.horizontalNavBar:hover {
+  opacity: 1;
+  transition: 0.4s;
+  scale: 0.95;
+}
+
+.block {
+  width: 60%;
+  height: 400px;
+  padding: 50px;
+  margin: 40px 0;
+  color: #fff;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("images/celeb.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.4s;
+
+  /* Styles taken fron horizontalNavBar */
+
+  border-radius: 20px;
+  opacity: 0.85;
+  scale: 0.9;
+}
+
+.block:hover {
+  opacity: 1;
+  transition: 0.2s;
+  scale: 0.95;
+}
